@@ -1,7 +1,12 @@
 ---
 title: 一句话完美配置！将你的 Claude Code 接入 deepseek！
+tags:
+  - Claude
+  - ai
+  - deepseek
+  - 大模型
+abbrlink: '33986905'
 date: 2026-05-13 20:37:14
-tags: [Claude,ai,deepseek,大模型]
 ---
 
 # 一句话完美配置！将你的 Claude Code 接入 deepseek！

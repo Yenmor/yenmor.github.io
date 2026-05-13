@@ -1,7 +1,11 @@
 ---
 title: Windows 下配置 AutoBangumi 全自动追番教程
+tags:
+  - 自动化
+  - 追番
+  - Docker
+abbrlink: d020aa6d
 date: 2026-04-17 00:13:00
-tags: [自动化, 追番, Docker]
 ---
 
 # **Windows 下配置 AutoBangumi 全自动追番教程**

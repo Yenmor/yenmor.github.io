@@ -1,7 +1,12 @@
 ---
 title: 使用PicGo + 腾讯云COS搭建md图床
+tags:
+  - 工具
+  - 图床
+  - PicGo
+  - 腾讯云COS
+abbrlink: '31285725'
 date: 2025-11-24 16:40:00
-tags: [工具, 图床, PicGo, 腾讯云COS]
 ---
 
 # 1. 下载并安装PicGO
