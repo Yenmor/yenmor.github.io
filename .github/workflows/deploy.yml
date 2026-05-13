@@ -1,0 +1,42 @@
+name: Deploy Hexo Blog
+
+on:
+  push:
+    branches: [main]
+  # 允许手动触发部署
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # 用于往 gh-pages 分支推送
+
+    steps:
+      # 步骤1：拉取源码
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      # 步骤2：安装 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      # 步骤3：安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 步骤4：生成静态网站
+      - name: Generate static files
+        run: npx hexo generate
+
+      # 步骤5：部署到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
