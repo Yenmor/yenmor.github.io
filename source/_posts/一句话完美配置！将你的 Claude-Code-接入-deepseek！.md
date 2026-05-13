@@ -4,7 +4,7 @@ date: 2026-05-13 20:37:14
 tags: [Claude,ai,deepseek,大模型]
 ---
 
-# 一句话完美配置！将你的 、Claude Code 接入 deepseek！
+# 一句话完美配置！将你的 Claude Code 接入 deepseek！
 
 ### 一句话配置
 
