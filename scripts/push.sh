@@ -1,5 +1,6 @@
 #!/bin/bash
 # 提交并推送博客
+cd "$(dirname "$0")/.."
 echo -n "输入提交信息（留空则默认'更新博客'）: "
 read -r MSG
 MSG="${MSG:-更新博客}"

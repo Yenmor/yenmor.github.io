@@ -1,5 +1,6 @@
 #!/bin/bash
 # 创建新文章
+cd "$(dirname "$0")/.."
 echo -n "输入文章标题: "
 read -r TITLE
 if [ -z "$TITLE" ]; then

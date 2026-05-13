@@ -1,6 +1,6 @@
 ---
 title: Windows 下配置 AutoBangumi 全自动追番教程
-date: 2025-04-17 00:13:00
+date: 2026-04-17 00:13:00
 tags: [自动化, 追番, Docker]
 ---
 

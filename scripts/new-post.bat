@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0.."
 set /p TITLE="Post title: "
 if "%TITLE%"=="" (
   echo Title cannot be empty

@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0.."
 npx hexo clean
 if %errorlevel% neq 0 (
   echo clean failed

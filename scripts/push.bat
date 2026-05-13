@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0.."
 set /p MSG="Commit message (leave empty for 'update blog'): "
 if "%MSG%"=="" set MSG=update blog
 git add .
